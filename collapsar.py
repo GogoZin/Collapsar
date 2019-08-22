@@ -62,10 +62,8 @@ def main(): #Setup
 	if uu=='':
 		uu ='/'
 	gt = str(input('Get List? (y/n) : '))
-	if gt =='':
-		gt ='y'
-		if gt =='y':
-			clone()
+	if gt =='y':
+		clone()
 	else:
 		pass
 	lst = str(input('Socks5 List (socks5.txt) : '))
